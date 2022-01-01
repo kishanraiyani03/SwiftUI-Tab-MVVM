@@ -5,4 +5,5 @@ Swift UI started demo
 - Custom Tabbar
 - ListView Example
 
-![Simulator Screen Shot - iPhone 11 Pro - 2022-01-01 at 19 35 20](https://user-images.githubusercontent.com/20352162/147852395-da412000-60a3-4f81-ad08-c22cf70b59ae.png)
+<img width="262" alt="demo" src="https://user-images.githubusercontent.com/20352162/147852500-a8e3355c-2db9-483c-bd90-73e74b2a1ba8.png">
+
