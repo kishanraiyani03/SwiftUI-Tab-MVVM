@@ -1,5 +1,5 @@
 # SwiftUI-Tab-MVVM
-Swift UI started demo 
+Swift UI starter demo 
 
 - MVVM
 - Custom Tabbar
