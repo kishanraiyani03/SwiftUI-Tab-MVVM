@@ -25,11 +25,16 @@ class HomeViewModel:ObservableObject {
             DispatchQueue.main.async {
                 self.isLoading = false
                 self.message = "Fetching complete"
-                do {
-                    self.albums = try JSONDecoder().decode([AlbumModel].self, from: data!)
+                if error == nil {
+                    do {
+                        self.albums = try JSONDecoder().decode([AlbumModel].self, from: data!)
+                    }
+                    catch {
+                        print(error)
+                    }
                 }
-                catch {
-                    print(error)
+                else {
+                    self.message = error?.localizedDescription ?? ""
                 }
             }
         }.resume()
