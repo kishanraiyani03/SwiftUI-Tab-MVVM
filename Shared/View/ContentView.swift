@@ -43,7 +43,7 @@ struct ContentView: View {
             
             switch selectedIndex {
             case 0:
-                home_tab_RootView.navigationTitle("Home").navigationBarTitleDisplayMode(.inline)
+                home_tab_RootView
             case 1:
                 NavigationView {
                     Text("Hi1").navigationTitle("Second Tab").navigationBarTitleDisplayMode(.inline)

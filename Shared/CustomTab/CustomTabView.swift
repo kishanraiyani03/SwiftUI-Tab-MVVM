@@ -17,7 +17,7 @@ struct CustomTabView: View {
         VStack {
             Divider()
             HStack {
-                ForEach(0..<5) { i in
+                ForEach(0..<tabBarImagesNmaes.count) { i in
                     Button {
                         selectedIndex = i
                         onClickedAtIndex?(selectedIndex)
